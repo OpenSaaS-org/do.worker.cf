@@ -9,11 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy
     steps:
-      - name: Read files action
-        uses: komorebitech/read-files-action@v1.5
-        id: worker
-        with:
-          files: 'worker.js'
+#       - name: Read files action
+#         uses: komorebitech/read-files-action@v1.5
+#         id: worker
+#         with:
+#           files: 'worker.js'
       
       - name: Send Webhook
         uses: jasongitmail/fast-webhook@v1
