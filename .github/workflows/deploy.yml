@@ -1,0 +1,4 @@
+uses: jasongitmail/fast-webhook@v1
+with:
+  url: 'https://worker.cf/deploy'
+  json: '{"CF_API_TOKEN": ${{ secrets.CF_API_TOKEN }}}'
